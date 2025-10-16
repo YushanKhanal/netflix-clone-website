@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:black;
+    
+
+}
+#logo{
+    height: 55px;
+    object-fit: cover;
+}
+.navbar{
+    display: flex;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: whitesmoke;
+    width: 100%;
+    height: 42px;
+    justify-content: space-around;
+    text-shadow: 0px 0px 4px black;
+    align-items: center;
+    padding: 0px 20px;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+ 
+}
+a{
+    text-decoration:none ;
+    color: white;
+}
+a:hover{
+    border-bottom: 2px solid red;
+    color: red;
+}
+.container{
+    background-image: url("images/stranger\ things.jpg");
+    z-index: 1;
+    width: 100%;
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    opacity: 3px;
+    border: none;
+}
+.name{
+    color: white;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 39px;
+    letter-spacing: 3.7px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.buttoon{
+    margin-left: 20px;
+    width: 217px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 16px;
+
+}
+
+.btn1{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(80, 78, 78);
+}
+
+.btn2{
+    width: 95px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(80, 78, 78);
+}
+
+.description{
+    width: 400px;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 4px black;
+
+}
+
+.blur{
+    background-color:black;
+    width: 100%;
+    height: 52px;
+    margin-top: 71px;
+    opacity: 32px;
+    filter: blur(8px);
+}
+.stuff{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    font-family:"Inter", sans-serif ;
+    box-sizing: border-box;
+    text-shadow: 0px 0px 4px black;
+}
+.comment{
+    color: white;
+    font-family:"BBH Sans Hegarty", sans-serif; 
+    margin-top: 16px;
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.lucifer,.umbrella-academy,.wednesday,.vikings,.got,.lupin,.money-heist{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0px 0px 4px white;
+    border-radius: 3px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+p{
+    margin-top: 8px;
+}
+ 
+.lucifer:hover,.umbrella-academy:hover,.wednesday:hover,.vikings:hover,.got:hover,.lupin:hover,.money-heist:hover{
+    width: 120px;
+    height: 160px;
+    transform: scale(1.1);
+    
+}
